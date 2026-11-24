@@ -1,0 +1,544 @@
+{
+  "queue": [
+    {
+      "id": "token-101",
+      "tokenNumber": 101,
+      "customerName": "Kavita Patel",
+      "phone": "9876543210",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut",
+          "nameGu": "વાળ કાપવા",
+          "duration": 25,
+          "price": 200
+        },
+        {
+          "id": "s3",
+          "nameEn": "Hair Wash",
+          "nameGu": "વાળ ધોવા",
+          "duration": 15,
+          "price": 100
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": "b1",
+      "assignedBarberName": "Raj",
+      "status": "Done",
+      "createdAt": "2026-11-24T16:58:28.074Z",
+      "calledAt": "2026-11-24T17:25:44.635Z",
+      "startedAt": "2026-11-24T17:25:44.642Z",
+      "completedAt": "2026-11-24T17:25:44.646Z"
+    },
+    {
+      "id": "token-102",
+      "tokenNumber": 102,
+      "customerName": "Bhavin Shah",
+      "phone": "9898989898",
+      "services": [
+        {
+          "id": "s2",
+          "nameEn": "Beard Grooming",
+          "nameGu": "દાઢી માવજત",
+          "duration": 20,
+          "price": 150
+        }
+      ],
+      "barberPreference": "b1",
+      "assignedBarberId": "b1",
+      "assignedBarberName": "Raj",
+      "status": "Done",
+      "createdAt": "2026-11-24T17:08:28.077Z",
+      "calledAt": "2026-11-24T17:26:29.352Z",
+      "startedAt": "2026-11-24T17:26:29.357Z",
+      "completedAt": "2026-11-24T17:26:29.361Z"
+    },
+    {
+      "id": "token-103",
+      "tokenNumber": 103,
+      "customerName": "Checklist 1 User",
+      "phone": "9111111111",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        },
+        {
+          "id": "s2",
+          "nameEn": "Beard Grooming & Shape",
+          "nameGu": "દાઢી માવજત અને આકાર",
+          "duration": 20,
+          "price": 150
+        },
+        {
+          "id": "s3",
+          "nameEn": "Hair Wash & Conditioning",
+          "nameGu": "વાળ ધોવા અને કન્ડીશનીંગ",
+          "duration": 15,
+          "price": 100
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": "b1",
+      "assignedBarberName": "Raj",
+      "status": "Done",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:27:52.136Z",
+      "calledAt": "2026-11-24T17:27:52.146Z",
+      "startedAt": "2026-11-24T17:27:52.150Z",
+      "completedAt": "2026-11-24T17:27:52.154Z"
+    },
+    {
+      "id": "token-104",
+      "tokenNumber": 104,
+      "customerName": "Customer For Raj",
+      "phone": "9222222231",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "b1",
+      "assignedBarberId": "b1",
+      "assignedBarberName": "Raj",
+      "status": "Done",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:27:52.141Z",
+      "calledAt": "2026-11-24T17:28:34.661Z",
+      "startedAt": "2026-11-24T17:28:34.666Z",
+      "completedAt": "2026-11-24T17:28:34.670Z"
+    },
+    {
+      "id": "token-105",
+      "tokenNumber": 105,
+      "customerName": "Customer For Vikram",
+      "phone": "9222222232",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "b3",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:27:52.143Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-106",
+      "tokenNumber": 106,
+      "customerName": "Candidate For NoShow",
+      "phone": "9444444444",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "b2",
+      "assignedBarberId": "b2",
+      "assignedBarberName": "Amit",
+      "status": "No-show",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:27:52.160Z",
+      "calledAt": "2026-11-24T17:27:52.163Z",
+      "startedAt": null,
+      "completedAt": "2026-11-24T17:27:52.168Z"
+    },
+    {
+      "id": "token-107",
+      "tokenNumber": 107,
+      "customerName": "Candidate For NoShow",
+      "phone": "9444444444",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": "b2",
+      "assignedBarberName": "Amit",
+      "status": "No-show",
+      "isWalkIn": true,
+      "createdAt": "2026-11-24T17:27:52.171Z",
+      "calledAt": "2026-11-24T17:28:34.675Z",
+      "startedAt": null,
+      "completedAt": "2026-11-24T17:28:34.678Z"
+    },
+    {
+      "id": "token-108",
+      "tokenNumber": 108,
+      "customerName": "Should Pass Walkin",
+      "phone": "9555555555",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": "b1",
+      "assignedBarberName": "Raj",
+      "status": "Done",
+      "isWalkIn": true,
+      "createdAt": "2026-11-24T17:27:52.178Z",
+      "calledAt": "2026-11-24T17:29:26.841Z",
+      "startedAt": "2026-11-24T17:29:26.845Z",
+      "completedAt": "2026-11-24T17:29:26.849Z"
+    },
+    {
+      "id": "token-109",
+      "tokenNumber": 109,
+      "customerName": "Checklist 1 User",
+      "phone": "9111111111",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        },
+        {
+          "id": "s2",
+          "nameEn": "Beard Grooming & Shape",
+          "nameGu": "દાઢી માવજત અને આકાર",
+          "duration": 20,
+          "price": 150
+        },
+        {
+          "id": "s3",
+          "nameEn": "Hair Wash & Conditioning",
+          "nameGu": "વાળ ધોવા અને કન્ડીશનીંગ",
+          "duration": 15,
+          "price": 100
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": "b2",
+      "assignedBarberName": "Amit",
+      "status": "No-show",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:28:34.654Z",
+      "calledAt": "2026-11-24T17:29:26.856Z",
+      "startedAt": null,
+      "completedAt": "2026-11-24T17:29:26.858Z"
+    },
+    {
+      "id": "token-110",
+      "tokenNumber": 110,
+      "customerName": "Candidate For NoShow",
+      "phone": "9444444444",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": true,
+      "createdAt": "2026-11-24T17:28:34.681Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-111",
+      "tokenNumber": 111,
+      "customerName": "Checklist 1 User",
+      "phone": "9195541366",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        },
+        {
+          "id": "s2",
+          "nameEn": "Beard Grooming & Shape",
+          "nameGu": "દાઢી માવજત અને આકાર",
+          "duration": 20,
+          "price": 150
+        },
+        {
+          "id": "s3",
+          "nameEn": "Hair Wash & Conditioning",
+          "nameGu": "વાળ ધોવા અને કન્ડીશનીંગ",
+          "duration": 15,
+          "price": 100
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:29:26.831Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-112",
+      "tokenNumber": 112,
+      "customerName": "Customer For Raj",
+      "phone": "9295541367",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "b1",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:29:26.835Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-113",
+      "tokenNumber": 113,
+      "customerName": "Customer For Vikram",
+      "phone": "9295541368",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "b3",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:29:26.838Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-114",
+      "tokenNumber": 114,
+      "customerName": "Candidate For NoShow",
+      "phone": "9495541369",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "b2",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": false,
+      "createdAt": "2026-11-24T17:29:26.853Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-115",
+      "tokenNumber": 115,
+      "customerName": "Checklist 1 User",
+      "phone": "9111111111",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": true,
+      "createdAt": "2026-11-24T17:29:26.861Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    },
+    {
+      "id": "token-116",
+      "tokenNumber": 116,
+      "customerName": "Should Pass Walkin",
+      "phone": "9595541371",
+      "services": [
+        {
+          "id": "s1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+          "duration": 25,
+          "price": 200
+        }
+      ],
+      "barberPreference": "any",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Waiting",
+      "isWalkIn": true,
+      "createdAt": "2026-11-24T17:29:26.867Z",
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null
+    }
+  ],
+  "barbers": [
+    {
+      "id": "b1",
+      "name": "Raj",
+      "status": "available",
+      "onDuty": true
+    },
+    {
+      "id": "b2",
+      "name": "Amit",
+      "status": "available",
+      "onDuty": true
+    },
+    {
+      "id": "b3",
+      "name": "Vikram",
+      "status": "break",
+      "onDuty": true
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "nameEn": "Haircut & Styling",
+      "nameGu": "વાળ કાપવા અને સ્ટાઇલ",
+      "duration": 25,
+      "price": 200,
+      "enabled": true
+    },
+    {
+      "id": "s2",
+      "nameEn": "Beard Grooming & Shape",
+      "nameGu": "દાઢી માવજત અને આકાર",
+      "duration": 20,
+      "price": 150,
+      "enabled": true
+    },
+    {
+      "id": "s3",
+      "nameEn": "Hair Wash & Conditioning",
+      "nameGu": "વાળ ધોવા અને કન્ડીશનીંગ",
+      "duration": 15,
+      "price": 100,
+      "enabled": true
+    },
+    {
+      "id": "s4",
+      "nameEn": "Head Massage (Oil)",
+      "nameGu": "માથાની માલિશ (તેલ)",
+      "duration": 20,
+      "price": 180,
+      "enabled": true
+    },
+    {
+      "id": "s5",
+      "nameEn": "Facial Cleanup",
+      "nameGu": "ફેસિયલ ક્લીનઅપ",
+      "duration": 30,
+      "price": 350,
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "onlineQueueOpen": true,
+    "staffPin": "1234",
+    "hours": {
+      "Tuesday": {
+        "open": true,
+        "openTime": "06:00",
+        "closeTime": "23:59"
+      },
+      "Monday": {
+        "open": true,
+        "openTime": "08:00",
+        "closeTime": "22:00"
+      },
+      "Wednesday": {
+        "open": true,
+        "openTime": "08:00",
+        "closeTime": "22:00"
+      },
+      "Thursday": {
+        "open": true,
+        "openTime": "08:00",
+        "closeTime": "22:00"
+      },
+      "Friday": {
+        "open": true,
+        "openTime": "08:00",
+        "closeTime": "22:00"
+      },
+      "Saturday": {
+        "open": true,
+        "openTime": "08:00",
+        "closeTime": "22:00"
+      },
+      "Sunday": {
+        "open": true,
+        "openTime": "08:00",
+        "closeTime": "22:00"
+      }
+    }
+  },
+  "stats": {
+    "servedToday": 10,
+    "noShowsToday": 4,
+    "totalWaitMinutesToday": 129
+  },
+  "nextTokenNumber": 117
+}
