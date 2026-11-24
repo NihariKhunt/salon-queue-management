@@ -2,6 +2,9 @@ import express from 'express';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import cors from 'cors';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { db } from './db.js';
 import {
   isOnlineQueueOpen,
@@ -11,9 +14,18 @@ import {
   findNextCustomerForBarber
 } from './queueLogic.js';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const clientDist = path.join(__dirname, '..', '..', 'client', 'dist');
+
 const app = express();
 app.use(cors({ origin: '*' }));
 app.use(express.json());
+
+// Serve static frontend assets if built
+if (fs.existsSync(clientDist)) {
+  app.use(express.static(clientDist));
+}
 
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
@@ -487,6 +499,22 @@ app.put('/api/settings', (req, res) => {
 
   broadcast();
   res.json({ success: true });
+});
+
+// Fallback to index.html for client-side SPA routing (or friendly API message)
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api') || req.path.startsWith('/socket.io')) {
+    return next();
+  }
+  const indexPath = path.join(clientDist, 'index.html');
+  if (fs.existsSync(indexPath)) {
+    return res.sendFile(indexPath);
+  }
+  res.json({
+    status: 'ok',
+    message: 'Salon Queue Backend API is running.',
+    endpoints: ['/api/state', '/api/queue/join', '/api/queue/call-next']
+  });
 });
 
 const PORT = process.env.PORT || 3001;
