@@ -161,3 +161,17 @@ At the end, tell me:
 4. Any sign-in or setup action I still need to do.
 5. The test checklist results and the files changed.
 ```
+
+
+---
+
+## Prompt 8: Execution, Verification and Deployment Prompt
+```text
+Continue from the current project. Do not rebuild it or replace working screens.
+
+Run the app and verify every item in docs/03-flows-rules.md. Test the main customer-to-reception-to-barber-to-display flow, all seven routes, and the English/Gujarati toggle. Fix any failures you find, then report the actual result for each checklist item. Do not claim a test passed unless you checked it.
+
+After fixing issues, check the existing Git repository and push the completed project to https://github.com/NihariKhunt/salon-queue-management. Then deploy the frontend to Vercel and the Socket.IO backend to a compatible host. Use the official sign-in flow if I need to authenticate; never ask me to paste a password or access token into chat.
+
+Keep working until the local app runs and the public deployment is verified. If you need me to sign in or configure hosting, tell me exactly what to do. Do not invent or report a live URL until it opens successfully. When deployment is verified, add the real live URL and staff demo PIN 1234 to the top of README.md.
+```
