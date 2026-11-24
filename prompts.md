@@ -175,3 +175,11 @@ After fixing issues, check the existing Git repository and push the completed pr
 
 Keep working until the local app runs and the public deployment is verified. If you need me to sign in or configure hosting, tell me exactly what to do. Do not invent or report a live URL until it opens successfully. When deployment is verified, add the real live URL and staff demo PIN 1234 to the top of README.md.
 ```
+
+
+---
+
+## Prompt 9: Browser Verification and Run Request
+```text
+NOT FOUND AND ALSO RUN PROJECT FOR ME NOW
+```
